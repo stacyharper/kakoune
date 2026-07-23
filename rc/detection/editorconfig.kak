@@ -53,7 +53,6 @@ define-command editorconfig-load -params ..1 -docstring "editorconfig-load [file
                         }
                         if (max_line_length && max_line_length != "off") {
                             print "set window autowrap_column " max_line_length
-                            print "autowrap-enable"
                         }
                     }
                 ' ;;
